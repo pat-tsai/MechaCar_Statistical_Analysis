@@ -4,7 +4,7 @@
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 ![ScreenShots](/resources/mpg_lin_reg.PNG)
 
-Based on the results of the linear regression, the relationship between vehicle mileage per gallon on vehicle length and ground clearance is statistically significant. This is shown by the p values that are much lower than the standard p-value of 0.05
+* Based on the results of the linear regression, the relationship between vehicle mileage per gallon on vehicle length and ground clearance is statistically significant. This is shown by the p values that are much lower than the standard p-value of 0.05
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 The `summarise()` function reveals the coefficients of our linear regression, and in this case the slopes are not 0
