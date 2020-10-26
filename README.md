@@ -30,7 +30,7 @@
 
 ![ScreenShots](/resources/multiple_t_test_summaries.PNG)
 
-In all 3 cases, the p-values from the statistical t-tests are above 0.05, resulting in failing to reject the null hypothesis. In this case, there is strong evidence that indicates our sample mean (each manufacturing lot) is **not** statistically different from the population mean of 1,500 PSI
+  * In all 3 cases, the p-values from the statistical t-tests are above 0.05, resulting in failing to reject the null hypothesis. In this case, there is strong evidence that indicates our sample mean (each manufacturing lot) is **not** statistically different from the population mean of 1,500 PSI
 
 
 ## Study Design: MechaCar vs Competition
