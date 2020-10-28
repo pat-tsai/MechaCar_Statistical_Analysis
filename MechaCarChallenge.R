@@ -20,7 +20,7 @@ lot_summary <- suspension_coils %>% group_by(Manufacturing_Lot) %>% summarize(Me
 
 # deliverable 3 -- T-tests
 t.test(suspension_coils$PSI, mu=1500) # t-test for all 3 manufacturing lots, assumed true mean = 1,500 PSI
-# since the p value is greater than significance level of 0.05, we reject the null in favor of the alternative
+# since the p value is greater than significance level of 0.05, we fail to reject the null hypothesis
 
 # t-tests based on subsets of manufacturing lots (1, 2, or 3)
 lot_1_data <- suspension_coils %>% subset(Manufacturing_Lot=='Lot1')
